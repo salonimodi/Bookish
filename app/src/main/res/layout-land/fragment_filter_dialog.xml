@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/columnLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_column_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/columnSpinner"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/columnLabel"
+        android:layout_alignBaseline="@id/columnLabel"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/valueLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_value_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toEndOf="@id/columnSpinner"
+        android:layout_alignBaseline="@id/columnSpinner"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"/>
+
+    <EditText
+        android:id="@+id/valueEditText"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/valueLabel"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/valueLabel"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/valueEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="1dp"
+        android:text="@string/submit_filter_button" />
+
+</RelativeLayout>

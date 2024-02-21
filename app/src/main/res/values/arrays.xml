@@ -1,0 +1,8 @@
+<resources>
+    <array name="filter_columns">
+        <item>Apply Filter</item>
+        <item>Job Title</item>
+        <item>Company Name</item>
+        <item>Location</item>
+    </array>
+</resources>

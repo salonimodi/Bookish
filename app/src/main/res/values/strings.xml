@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Job Portal</string>
+    <string name="login">Login</string>
+    <string name="resume">Resume</string>
+    <string name="upload_resume">Upload Resume</string>
+    <string name="preview_resume">Preview Resume</string>
+    <string name="video">Video</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="preview_video">Preview Video</string>
+    <string name="submit_application">Submit Application</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="google_login">OAuth Login</string>
+    <string name="name">Name</string>
+    <string name="about_job_board">About Job Board</string>
+    <string name="about_page_content">Our application allows users to apply for jobs by submitting their resume and an introductory video to potential employers</string>
+    <string name="cancel">Cancel</string>
+    <string name="company_name">XYZ Inc.</string>
+    <string name="company_desc">XYZ Inc. is a leading technology company that specializes in developing innovative software solutions for businesses across various industries. The company was founded in 2005 by a group of software engineers who wanted to make a difference in the world of technology. Today, XYZ Inc. is a well-established organization with a team of over 500 employees and offices located in several countries around the world.</string>
+    <string name="job_title">Android Developer</string>
+    <string name="job_desc">We are looking for an experienced Android Developer to join our team. The ideal candidate will have a strong background in developing native Android applications using Java and Kotlin.</string>
+    <string name="job_location">San Francisco, CA</string>
+    <string name="apply">Apply</string>
+    <string name="salary">$100,000 - $120,000 per year</string>
+    <string name="logout_msg">Logged out successfully</string>
+    <string name="filter_column_label">Column Name</string>
+    <string name="filter_value_label">Value</string>
+    <string name="submit_filter_button">Filter</string>
+
+</resources>

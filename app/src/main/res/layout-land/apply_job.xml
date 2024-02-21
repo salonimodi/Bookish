@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Video Upload Section -->
+    <TextView
+        android:id="@+id/video_upload_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Upload"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/video_upload_button"
+        android:layout_below="@id/video_upload_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Video"/>
+
+    <VideoView
+        android:id="@+id/video_preview"
+        android:layout_below="@id/video_upload_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/video_delete_button"
+        android:layout_below="@id/video_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Video"
+        android:visibility="gone"/>
+
+    <!-- File Upload Section -->
+    <TextView
+        android:id="@+id/file_upload_title"
+        android:layout_below="@id/video_delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Upload"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/file_upload_button"
+        android:layout_below="@id/file_upload_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select File"/>
+
+    <Button
+        android:id="@+id/file_delete_button"
+        android:layout_below="@id/file_upload_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete File"
+        android:visibility="gone"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:text="Submit Application"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>

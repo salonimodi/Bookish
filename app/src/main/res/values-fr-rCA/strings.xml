@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Portail de l\'emploi</string>
+    <string name="login">Connexion</string>
+    <string name="resume">CV</string>
+    <string name="upload_resume">Télécharger CV</string>
+    <string name="preview_resume">Aperçu CV</string>
+    <string name="video">Vidéo</string>
+    <string name="upload_video">Télécharger une video</string>
+    <string name="preview_video">Aperçu de la vidéo</string>
+    <string name="submit_application">Présenter une demande</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="submit">Soumettre</string>
+    <string name="google_login">Connexion OAuth</string>
+    <string name="name">Nom</string>
+    <string name="about_job_board">À propos de Job Board</string>
+    <string name="about_page_content">Notre application permet aux utilisateurs de postuler à des emplois en soumettant leur CV et une vidéo d\'introduction aux employeurs potentiels</string>
+    <string name="cancel">Annuler</string>
+    <string name="company_name">XYZ inc.</string>
+    <string name="company_desc">XYZ Inc. est une entreprise technologique de premier plan spécialisée dans le développement de solutions logicielles innovantes pour les entreprises de divers secteurs. La société a été fondée en 2005 par un groupe d\'ingénieurs en logiciel qui souhaitaient faire une différence dans le monde de la technologie. Aujourd\'hui, XYZ Inc. est une organisation bien établie avec une équipe de plus de 500 employés et des bureaux situés dans plusieurs pays à travers le monde.</string>
+    <string name="job_title">Développeur Android</string>
+    <string name="job_desc">Nous recherchons un développeur Android expérimenté pour rejoindre notre équipe. Le candidat idéal aura une solide expérience dans le développement d\'applications Android natives utilisant Java et Kotlin.</string>
+    <string name="job_location">San Francisco, Californie</string>
+    <string name="apply">Appliquer</string>
+    <string name="salary">100 000 $ - 120 000 $ par année</string>
+    <string name="logout_msg">Déconnecté avec succès</string>
+    <string name="filter_column_label">Nom de colonne</string>
+    <string name="filter_value_label">Valeur</string>
+    <string name="submit_filter_button">Filtre</string>
+</resources>

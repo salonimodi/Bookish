@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Portal de trabajo</string>
+    <string name="login">Acceso</string>
+    <string name="resume">Reanudar</string>
+    <string name="upload_resume">Subir currículum</string>
+    <string name="preview_resume">Vista previa del currículum</string>
+    <string name="video">Video</string>
+    <string name="upload_video">Subir vídeo</string>
+    <string name="preview_video">Vista previa de vídeo</string>
+    <string name="submit_application">Presentar la solicitud</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="submit">Entregar</string>
+    <string name="google_login">Inicio de sesión de OAuth</string>
+    <string name="name">Nombre</string>
+    <string name="about_job_board">Acerca de la bolsa de trabajo</string>
+    <string name="about_page_content">Nuestra aplicación permite a los usuarios postularse para trabajos enviando su currículum y un video introductorio para posibles empleadores.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="company_name">XYZ Inc</string>
+    <string name="company_desc">XYZ Inc. es una empresa de tecnología líder que se especializa en el desarrollo de soluciones de software innovadoras para negocios en diversas industrias. La empresa fue fundada en 2005 por un grupo de ingenieros de software que querían marcar la diferencia en el mundo de la tecnología. Hoy, XYZ Inc. es una organización bien establecida con un equipo de más de 500 empleados y oficinas ubicadas en varios países de todo el mundo.</string>
+    <string name="job_title">Desarrolladora de Android</string>
+    <string name="job_desc">Estamos buscando un desarrollador de Android con experiencia para unirse a nuestro equipo. El candidato ideal tendrá una sólida experiencia en el desarrollo de aplicaciones nativas de Android utilizando Java y Kotlin.</string>
+    <string name="job_location">San Francisco, CA</string>
+    <string name="apply">Aplicar</string>
+    <string name="salary">$100,000 - $120,000 por año</string>
+    <string name="logout_msg">Cerrar sesión con éxito</string>
+    <string name="filter_column_label">Nombre de la columna</string>
+    <string name="filter_value_label">Value</string>
+    <string name="submit_filter_button">Filtrar</string>
+</resources>
